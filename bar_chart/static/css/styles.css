@@ -1,15 +1,4 @@
-
-.chart div {
-  font: 10px sans-serif;
-  background-color: steelblue;
-  text-align: right;
-  padding: 3px;
-  margin: 1px;
-  color: white;
-}
-
-
-.chart rect{
+.bar {
 	fill: steelblue;
 }
 
@@ -19,7 +8,7 @@
 	text-anchor: end;
 }
 
-.axis text {
+.axis {
   font: 10px sans-serif;
 }
 
@@ -32,4 +21,8 @@
 
 .x.axis path{
   display: none;
+}
+
+.bar:hover {
+  fill: brown;
 }
