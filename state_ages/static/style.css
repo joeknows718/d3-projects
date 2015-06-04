@@ -1,0 +1,43 @@
+
+svg {
+  font: 10px sans-serif;
+}
+
+.bar rect {
+  fill: steelblue;
+}
+
+.bar:hover rect {
+  fill: brown;
+}
+
+.value {
+  fill: white;
+}
+
+.axis {
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  stroke: none;
+}
+
+.x.axis line {
+  stroke: #fff;
+  stroke-opacity: .8;
+}
+
+.y.axis path {
+  stroke: black;
+}
+
+p {
+	font-family: Helvetica;
+	padding-left: 50px;
+}
+
+aside {
+	font-family: Helvetica;
+	padding-left: 50px; 
+}
